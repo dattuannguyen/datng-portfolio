@@ -31,10 +31,10 @@ const Contact = () =>{
                             {/*right content*/}
                             <p className="pb-10 text-lg md:text-2xl">Or you can find me on other social media platforms like </p>
                             <div className="relative flex gap-10 ">
-                                <a href="">
+                                <a href="https://github.com/dattuannguyen" target="_blank">
                                     <img src={github} alt="" className="rounded-full md:w-24 md:h-24 w-16 h-16"/>
                                 </a>
-                                <a href="">
+                                <a href="https://www.linkedin.com/in/datng0609/" target="_blank">
                                     <img src={linkedin} alt="" className="rounded-full md:w-24 md:h-24 w-16 h-16"/>
                                 </a>
                                 <a href="mailto:dat.nt0609@gmail.com.com" target="_blank">
