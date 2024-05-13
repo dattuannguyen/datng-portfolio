@@ -1,2 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
+.btn{
+    @apply rounded-full py-5 px-10 uppercase text-xs font-bold cursor-pointer tracking-wider
+}

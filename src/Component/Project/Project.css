@@ -1,0 +1,12 @@
+
+.project{
+    @apply text-xl font-body mx-32 flex bg-white2 rounded-3xl overflow-hidden shadow-md relative cursor-pointer transform hover:scale-105 hover:bg-opacity-50 transition ease-out duration-1000
+}
+
+.description{
+    @apply flex items-center px-10  justify-center
+}
+
+.btn-live{
+    @apply rounded-full py-3 px-10 uppercase text-xs font-bold cursor-pointer tracking-wider
+}

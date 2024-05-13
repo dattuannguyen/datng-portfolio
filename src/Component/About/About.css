@@ -1,0 +1,5 @@
+
+.btn-skill{
+    @apply text-white bg-black1 border-black1 md:border-2 hover:bg-gray1 hover:text-black1 transition ease-out duration-500 rounded-full py-5 px-16 uppercase text-lg font-bold cursor-pointer tracking-wider
+}
+
