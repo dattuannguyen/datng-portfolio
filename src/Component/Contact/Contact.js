@@ -1,7 +1,7 @@
 import React from "react"
-import github from "./icons8-github.svg"
-import linkedin from "./icons8-linkedin.svg"
-import gmail from "./icons8-gmail.svg"
+import github from "./github.svg"
+import linkedin from "./linkedin.svg"
+import gmail from "./gmail.svg"
 import { Link, Element } from 'react-scroll';
 const Contact = () =>{
     return(
