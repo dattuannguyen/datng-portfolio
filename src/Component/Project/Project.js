@@ -10,13 +10,13 @@ const Project = () =>{
     return(
         <>
             <div className=" bg-gray1 pb-28">
-                <div className="px-14 py-28">
-                    <h1 className="text-5xl text-black font-body" >Project</h1>
+                <div className="md:px-14 md:py-28 px-7 py-14">
+                    <h1 className="md:text-5xl text-4xl text-black font-body" >Project</h1>
                 </div>
                 <div className="flex flex-col gap-16">
                     <div className="project">
                         {/*first project*/}
-                        <img src={brain} alt="" className="w-2/5 h-auto rounded "/>
+                        <img src={brain} alt="" className="md:w-2/5 w-fit h-auto rounded "/>
                         <div className="relative flex flex-col justify-between p-10 bg-white1 ">
                             <div className="description rounded-full">
                                 This is the final full-stack project of the ZTM learning program, utilizing the Clarifai API to detect human faces in images.
@@ -30,7 +30,7 @@ const Project = () =>{
                     </div>
                     <div className="project">
                         {/*2project*/}
-                        <img src={robofriend} alt="" className="w-2/5 h-auto rounded "/>
+                        <img src={robofriend} alt="" className="md:w-2/5 w-fit h-auto rounded "/>
                         <div className="relative flex flex-col justify-between p-10 bg-white1 ">
                             <div className="description rounded-full">
                                 Welcome to another captivating project within the ZTM course, where we delve into the realm of APIs to embark on an adventure in search of fascinating robots. Through the utilization of various APIs,
@@ -44,7 +44,7 @@ const Project = () =>{
                     </div>
                     <div className="project">
                         {/*3 project*/}
-                        <img src={loop} alt="" className="w-2/5 h-auto rounded "/>
+                        <img src={loop} alt="" className="md:w-2/5 w-fit h-auto rounded "/>
                         <div className="relative flex flex-col justify-between p-10 bg-white1 ">
                             <div className="description rounded-full">
                                 Introducing the Loop Landing page project:
@@ -58,7 +58,7 @@ const Project = () =>{
                     </div>
                     <div className="project">
                         {/*4 project*/}
-                        <img src={rating} alt="" className="w-2/5 h-auto rounded "/>
+                        <img src={rating} alt="" className="md:w-2/5 w-fit h-auto rounded "/>
                         <div className="relative flex flex-col justify-between p-10 bg-white1 ">
                             <div className="description rounded-full">
 
@@ -73,7 +73,7 @@ const Project = () =>{
                     </div>
                     <div className="project">
                         {/*5 project*/}
-                        <img src={card} alt="" className="w-2/5 h-auto rounded "/>
+                        <img src={card} alt="" className="md:w-2/5 w-fit h-auto rounded "/>
                         <div className="relative flex flex-col justify-between p-10 bg-white1 ">
                             <div className="description rounded-full">
                                 Introducing the Bank Card project: This engaging project offers an excellent opportunity to hone your skills in DOM manipulation and form validation.
@@ -87,7 +87,7 @@ const Project = () =>{
                     </div>
                     <div className="project">
                         {/*6 project*/}
-                        <img src={notification} alt="" className="w-2/5 h-auto rounded "/>
+                        <img src={notification} alt="" className="md:w-2/5 w-fit h-auto rounded "/>
                         <div className="relative flex flex-col justify-between p-10 bg-white1 ">
                             <div className="description rounded-full">
                                 Introducing the Notifications Page

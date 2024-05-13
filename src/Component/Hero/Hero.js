@@ -22,7 +22,7 @@ class Hero extends Component {
             <div className="relative flex flex-col items-center justify-center h-dvh  bg-white1 rounded-lg">
                 {/*<div className="text-center">*/}
                     {/* Typewriter component */}
-                    <h1 className="font-satoshi text-7xl m-0">
+                    <h1 className="font-satoshi md:text-7xl text-5xl md:m-0 m-4">
                         <Typewriter
                             words={['Hellooo , I\'m Dat Nguyen']}
                             loop={1}

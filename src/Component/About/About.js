@@ -4,13 +4,13 @@ const About =()=>{
     return(
         <>
             <div className="h-full bg-gray1">
-                <div className="px-14 py-10 ">
-                    <h1 className="text-5xl text-black font-body ">
+                <div className="md:px-14 md:py-10 px-7 py-14 ">
+                    <h1 className="text-4xl md:text-5xl text-black font-body ">
                         About me
                     </h1>
                 </div>
-                <div className=" flex gap-4  px-14">
-                    <div className="w-1/2 flex items-center ">
+                <div className=" flex flex-col md:flex-row md:gap-4 gap-10 md:px-14 px-7">
+                    <div className=" flex items-center ">
                         {/*About section*/}
 
                         <p className="text-black1 text-2xl font-serif leading-loose ">
@@ -19,8 +19,8 @@ const About =()=>{
                             Let's build something amazing together!
                         </p>
                     </div>
-                    <div className="flex  flex-col justify-between py-0 px-16 gap-6">
-                        <div className="w-full flex gap-16 justify-between">
+                    <div className="flex  flex-col justify-between py-0 md:px-16 px-0 gap-6">
+                        <div className="w-full flex md:gap-16 gap-4 justify-between">
                             <span className=" btn-skill">HTML</span>
                             <span className="  btn-skill">CSS</span>
                             <span className="btn-skill">Javascript</span>
