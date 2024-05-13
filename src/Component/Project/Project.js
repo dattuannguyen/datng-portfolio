@@ -19,6 +19,7 @@ const Project = () =>{
                         <img src={brain} alt="" className="md:w-2/5 w-fit h-auto rounded "/>
                         <div className="relative flex flex-col justify-between p-10 bg-white1 ">
                             <div className="description rounded-full">
+                                Introducing the Smart Brain project:
                                 This is the final full-stack project of the ZTM learning program, utilizing the Clarifai API to detect human faces in images.
                                 The project includes a registration page to store user data in the database and subsequently allows users to sign in and use the web application.
                             </div>
@@ -33,11 +34,11 @@ const Project = () =>{
                         <img src={robofriend} alt="" className="md:w-2/5 w-fit h-auto rounded "/>
                         <div className="relative flex flex-col justify-between p-10 bg-white1 ">
                             <div className="description rounded-full">
-                                Welcome to another captivating project within the ZTM course, where we delve into the realm of APIs to embark on an adventure in search of fascinating robots. Through the utilization of various APIs,
-                                we aim to uncover a diverse array of intriguing robotic entities, each with its own unique characteristics and functionalities
+                                Introducing the Robofriends project:
+                                Another interesting small project in the ZTM learning program. This project utilizes the simple Robohash API to generate names for various robot characters.
                             </div>
                             <div  className=" flex justify-center items-center gap-20 m-2 ">
-                                <a className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Live</a>
+                                <a href="https://dattuannguyen.github.io/robofriends/" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Live</a>
                                 <a href="https://github.com/dattuannguyen/robofriends" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Source</a>
                             </div>
                         </div>
