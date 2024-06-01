@@ -54,8 +54,8 @@ const Project = () =>{
                                 This project showcases a modern design, smooth animations, and an intuitive user interface for an enhanced dining reservation experience.
                             </div>
                             <div  className=" flex justify-center items-center gap-20 m-2 ">
-                                <a href="https://github.com/dattuannguyen/restaurant-reservation" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Live</a>
-                                <a href="https://restaurant-reservation-emgb.onrender.com/" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Source</a>
+                                <a href="https://restaurant-reservation-emgb.onrender.com/" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Live</a>
+                                <a href="https://github.com/dattuannguyen/restaurant-reservation" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Source</a>
                             </div>
                         </div>
                     </div>
