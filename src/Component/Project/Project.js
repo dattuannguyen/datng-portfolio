@@ -5,6 +5,7 @@ import loop from "./Loopstudios-landing-page.png"
 import rating from "./Interactive Rating Component .png"
 import card from "./Interactive-card-details-form.png"
 import notification from "./Notifications-page.png"
+import restaurant from "./1997. restaurant.png"
 import "./Project.css"
 const Project = () =>{
     return(
@@ -45,15 +46,16 @@ const Project = () =>{
                     </div>
                     <div className="project">
                         {/*3 project*/}
-                        <img src={loop} alt="" className="md:w-2/5 w-fit h-auto rounded "/>
+                        <img src={restaurant} alt="" className="md:w-2/5 w-fit h-auto rounded "/>
                         <div className="relative flex flex-col justify-between p-10 bg-white1 ">
                             <div className="description rounded-full">
-                                Introducing the Loop Landing page project:
-                                an exercise aimed at enhancing proficiency in utilizing layout grid and flexbox techniques using basic HTML, CSS, and JavaScript.
+                                Introducing the 1997. Restaurant Landing Page:
+                                a responsive and interactive web application built with React and Tailwind CSS.
+                                This project showcases a modern design, smooth animations, and an intuitive user interface for an enhanced dining reservation experience.
                             </div>
                             <div  className=" flex justify-center items-center gap-20 m-2 ">
-                                <a href="https://dattuannguyen.github.io/loopstudios-landing-page/" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Live</a>
-                                <a href="https://github.com/dattuannguyen/loopstudios-landing-page" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Source</a>
+                                <a href="https://github.com/dattuannguyen/restaurant-reservation" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Live</a>
+                                <a href="https://restaurant-reservation-emgb.onrender.com/" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Source</a>
                             </div>
                         </div>
                     </div>
