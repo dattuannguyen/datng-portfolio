@@ -26,6 +26,9 @@ module.exports = {
       },
       width:{
         circle:'30rem'
+      },
+      grayscale:{
+        '90':'90%'
       }
     },
   },

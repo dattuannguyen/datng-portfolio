@@ -1,13 +1,22 @@
 
 .project{
-    @apply text-xl font-body md:mx-32 mx-8 flex flex-col md:flex-row bg-white2 rounded-3xl overflow-hidden shadow-md relative cursor-pointer
-    transform hover:scale-105 hover:bg-opacity-50 transition ease-out duration-1000
+    @apply text-xl font-body md:mx-10 mx-4 flex flex-col  rounded-3xl overflow-hidden shadow-md relative cursor-pointer
+    transform hover:scale-105 hover:bg-opacity-50 transition ease-out duration-1000 bg-white1 h-[680px]
 }
 
 .description{
-    @apply flex items-center md:px-10 px-0  justify-center
+    @apply flex items-center md:px-3 px-0 text-lg  justify-center group-hover:grayscale-0
 }
 
 .btn-live{
     @apply rounded-full md:py-5 md:px-10 py-3 px-4 uppercase text-xs font-bold cursor-pointer tracking-wider
+}
+
+.img{
+    @apply w-full h-[400px] rounded grayscale-90 group-hover:grayscale-0;
+
+}
+
+.project:hover img:hover{
+
 }
