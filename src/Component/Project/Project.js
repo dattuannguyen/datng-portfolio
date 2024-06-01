@@ -69,8 +69,7 @@ const Project = () =>{
                             <div className="relative flex flex-col justify-between p-10 bg-white1 ">
                                 <div className="description rounded-full">
 
-                                    Introducing the Basic Interactive Rating Card project: Utilizing HTML, CSS, and JS, this endeavor aims to create an engaging component for interactive rating experiences,
-                                    enhancing user interaction and interface aesthetics.
+                                    Introducing the Basic Interactive Rating Card project: Developed an interactive rating component allowing users to rate their experience on a scale of 1 to 5. The project features real-time feedback upon submission and a thank-you message.
                                 </div>
                                 <div  className=" flex justify-center items-center gap-20 m-2 ">
                                     <a href="https://dattuannguyen.github.io/interactive-rating/" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Live</a>
@@ -83,8 +82,8 @@ const Project = () =>{
                             <img src={card} alt="" className="img "/>
                             <div className="relative flex flex-col justify-between p-10 bg-white1 ">
                                 <div className="description rounded-full">
-                                    Introducing the Bank Card project: This engaging project offers an excellent opportunity to hone your skills in DOM manipulation and form validation.
-                                    Put your HTML and CSS expertise to the test while enhancing your understanding of web development fundamentals.
+                                    Introducing the Bank Card project: This project allows users to enter and validate credit card details in real-time, using HTML, CSS, and JavaScript.
+                                    The form includes features like live validation feedback and a confirmation message upon successful submission.
                                 </div>
                                 <div  className=" flex justify-center items-center gap-20 m-2 ">
                                     <a href="https://dattuannguyen.github.io/interactive-card-details-form/" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Live</a>
@@ -98,8 +97,7 @@ const Project = () =>{
                             <div className="relative flex flex-col justify-between p-10 bg-white1 ">
                                 <div className="description rounded-full">
                                     Introducing the Notifications Page
-                                    project: his project serves as a comprehensive assessment of HTML, CSS, and fundamental JavaScript abilities.
-                                    Explore interactive notification toggling and sharpen your front-end development prowess
+                                    project: Created a dynamic notifications page that displays user interactions in a clean, responsive layout. This project features real-time updates and interactive elements, providing users with immediate feedback on their actions. Built using HTML, CSS, and JavaScript to ensure a seamless user experience.
                                 </div>
                                 <div  className=" flex justify-center items-center gap-20 m-2 ">
                                     <a href="https://dattuannguyen.github.io/notifications-page/" target="_blank" className="btn-live text-black1 border-black1 md:border-2 hover:bg-black1 hover:text-white transition ease-out duration-500">Live</a>
